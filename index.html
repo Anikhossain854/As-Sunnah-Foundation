@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As-Sunnnah Web-Clone</title>
+    <!-- Fav-icon -->
+    <!-- font-awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- google font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js">
+    <link rel="shortcut icon" href="img/logo-text.545b0ef3.png" type="image/x-icon">
+    <!-- bootstrap css -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- Custome css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+<header class="slider-bg">
+   <div class="top-navbar text-end pt-2 px-5">
+       <div class="row">
+        <div class="col-12">
+            <div class="social-icon ">
+                <i class="fa-brands fa-square-facebook blue"></i>
+                <i class="fa-brands fa-youtube red"></i>
+                <i class="fa-regular fa-envelope main-color"></i>
+                <i class="fa-solid fa-phone main-color"></i>
+              <div class="btn">
+                <button class="btn-en">En</button>
+                <button class="btn-bangla">বাংলা</button>
+              </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <div class="mid-navbar">
+        <div class="logo">
+            <img src="img/w-logo.2ead3926.png" alt="">
+        </div>
+            
+            <div class="btn">  
+                <button type="button" class="btn btn-success bg-success text-white">আমার একাউন্ট</button>
+            
+            </div>
+
+      
+    </div>
+
+    <div class="main-nav">
+<nav class="navbar navbar-expand-lg bg-success text-white">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="img/w-logo.2ead3926.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars text-white menu-icon"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#হোম">হোম</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#আমাদের সম্পর্কে">আমাদের সম্পর্কে</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#আমাদের কার্যক্রম">আমাদের কার্যক্রম</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#আমাদের কার্যক্রম">আজীবন ও দাতা সদস্য</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#গ্যালারী">গ্যালারী</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#সেচ্ছাসেবক নিবন্ধন">সেচ্ছাসেবক নিবন্ধন</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#আমাদের সেচ্ছাসেবক"> আমাদের সেচ্ছাসেবক </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ভিডিও">ভিডিও</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">সংবাদ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#যোগাযোগ">যোগাযোগ</a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+       
+
+       
+   
+</header>
+
+<!-- Onudan -->
+<div class="container pb-5">
+    <section id="onudan " class="onudan g-5">
+
+        <div class="row py-4 g-2 d-flex py-5 ">
+            <div class="col-lg-2">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>অনুদানের তহবিল</option>
+                    <option value="1">যাকাত</option>
+                    <option value="2">সাধারণ তহবিল</option>
+                    <option value="3">সদ্গায়ে জারিয়া তহবিল</option>
+                </select>
+            </div>
+            <div class="col-lg-2 mx-lg-3">
+                <div class=">
+                    <span class="input-group-text" id="addon-wrapping"></span>
+                    <input type="text" class="form-control" placeholder="ফোন/ইমেইল" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+                
+            </div>
+            <div class="col-lg-2 mx-lg-3 ">
+                <div class=">
+                    <span class="input-group-text" id="addon-wrapping"></span>
+                    <input type="text" class="form-control" placeholder="অনুদানের পরিমাণ" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+
+              
+            </div>
+            <div class="col-lg-2 mx-lg-3 py-2">
+               <button class=" btn  bg-success text-white ">দান করুন</button>
+            </div>
+        </div>
+   
+
+</section>
+</div>
+
+<!-- slider -->
+<section class="slider slider-bg pb-4">
+    <div class="container py-5 p-4">
+  
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/slide-00001.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/ak.slider.jpg" class="d-block w-100 my-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-00003.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-00004.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-00005.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-00006.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-00002.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-00007.jpg" class="d-block w-100" alt="...">
+              </div>
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</section>
+
+<!-- about-us -->
+<section id="about-us " class="about-us">
+    <div class="container">
+        <div class="row p-5 d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img">
+                    <img src="img/golden-gate.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <div class="about-text">
+                    <h4 class="text-success">আস-সুন্নাহ ফাউন্ডেশন</h4>
+                </div>
+                <div class="divider mt-2 mb-3"></div>
+                <p>আস-সুন্নাহ ফাউন্ডেশন একটি অরাজনৈতিক, অলাভজনক শিক্ষা, দাওয়াহ ও পূর্ণত মানবকল্যাণে নিবেদিত সেবামূলক প্রতিষ্ঠান। এই প্রতিষ্ঠান মানবতার শিক্ষক, মানুষের মুক্তি ও শান্তির দূত, মানবসেবার আদর্শ, মহানবী মুহাম্মদ সা.-এর পদাঙ্ক অনুসরণ করে আর্তমানবতার সেবা, সমাজ সংস্কার, মহত্তম নীতিচেতনার সঞ্চার, কর্মসংস্থান তৈরি, দারিদ্র্য বিমোচন, ইসলামী তমদ্দুনের প্রসার, বহুমুখী শিক্ষায়ন প্রকল্প পরিচালনা, ত্রাণ বিতরণ, স্বল্পমূল্যে বা বিনামূল্যে স্বাস্থ্যসেবা প্রদান, পরিচ্ছন্ন মানসিকতা গঠনে নিরন্তর নানা কর্মসূচি পালন, সর্বোপরি মৌখিক, লৈখিক ও আধুনিক সকল প্রচারমাধ্যম ব্যবহার করে মানুষকে মহান আল্লাহর আনুগত্য ও তাঁর রাসূলের অনুকরণে সত্য ও শান্তির পথে ডেকে এনে একটি আদর্শ কল্যাণসমাজ বিনির্মাণে যথাশক্তি প্রচেষ্টা চালিয়ে যাচ্ছে।</p>
+              
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- চলুন একসাথে একটি পরিবর্তন আনি -->
+<!-- card section -->
+<section id="card-section" class="card-section py-5">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12"> <h4 class="mb-4 text-center">চলুন একসাথে একটি পরিবর্তন আনি</h4></div>
+    </div>
+    <div class="row g-4 pb-4">
+      <div class="col-lg-4">
+        <div class="card-item pb-4">
+          <img src="img/assunnah-complex.jpg" alt="" class="img-fluid">
+          <h4 class="text-success text-center mt-3 px-1">আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স</h4>
+          <div class="content p-2 px-3 ">
+          <p>দেশ, জাতি ও উম্মাহর কল্যাণার্থে পরিচালিত আস-সুন্নাহ ফাউন্ডেশনের নানামুখী কার্যক্রমের কেন্দ্রবিন্দু হবে আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স। এই কমপ্লেক্সে একটি আদর্শ মসজিদ এবং যুগ-চাহিদা পূরণে উপযোগী ইসলামিক স্কলার তৈরির লক্ষ্যে সমন্বিত সিলেবাসের একটি আধুনিক মাদরাসাসহ বিভন্ন সেবা ও জনকল্যাণমূলক প্রকল্প পরিচালনার কেন্দ্র হবে ইন-শা-আল্লাহ।</p>
+          <a href="" class="card-btn text-center text-white p-2">দান করুন</a>
+          </div>
+        </div>
+      
+      </div>
+      <div class="col-lg-4">
+        <div class="card-item pb-4">
+          <img src="img/zakat.jpg" alt="" class="img-fluid">
+          <h4 class="text-success text-center mt-3 px-1">আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স</h4>
+          <div class="content p-2 px-3 ">
+          <p>দেশ, জাতি ও উম্মাহর কল্যাণার্থে পরিচালিত আস-সুন্নাহ ফাউন্ডেশনের নানামুখী কার্যক্রমের কেন্দ্রবিন্দু হবে আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স। এই কমপ্লেক্সে একটি আদর্শ মসজিদ এবং যুগ-চাহিদা পূরণে উপযোগী ইসলামিক স্কলার তৈরির লক্ষ্যে সমন্বিত সিলেবাসের একটি আধুনিক মাদরাসাসহ বিভন্ন সেবা ও জনকল্যাণমূলক প্রকল্প পরিচালনার কেন্দ্র হবে ইন-শা-আল্লাহ।</p>
+          <a href="" class="card-btn text-center text-white p-2">দান করুন</a>
+          </div>
+        </div>
+      
+      </div>
+      <div class="col-lg-4">
+        <div class="card-item pb-4">
+          <img src="img/general.jpg" alt="" class="img-fluid">
+          <h4 class="text-success text-center mt-3 px-1">আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স</h4>
+          <div class="content p-2 px-3 ">
+          <p>দেশ, জাতি ও উম্মাহর কল্যাণার্থে পরিচালিত আস-সুন্নাহ ফাউন্ডেশনের নানামুখী কার্যক্রমের কেন্দ্রবিন্দু হবে আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স। এই কমপ্লেক্সে একটি আদর্শ মসজিদ এবং যুগ-চাহিদা পূরণে উপযোগী ইসলামিক স্কলার তৈরির লক্ষ্যে সমন্বিত সিলেবাসের একটি আধুনিক মাদরাসাসহ বিভন্ন সেবা ও জনকল্যাণমূলক প্রকল্প পরিচালনার কেন্দ্র হবে ইন-শা-আল্লাহ।</p>
+          <a href="" class="card-btn text-center text-white p-2">দান করুন</a>
+          </div>
+        </div>
+      
+      </div>
+      <div class="col-lg-4">
+        <div class="card-item pb-4">
+          <img src="img/monthly.jpg" alt="" class="img-fluid">
+          <h4 class="text-success text-center mt-3 px-1">আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স</h4>
+          <div class="content p-2 px-3 ">
+          <p>দেশ, জাতি ও উম্মাহর কল্যাণার্থে পরিচালিত আস-সুন্নাহ ফাউন্ডেশনের নানামুখী কার্যক্রমের কেন্দ্রবিন্দু হবে আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স। এই কমপ্লেক্সে একটি আদর্শ মসজিদ এবং যুগ-চাহিদা পূরণে উপযোগী ইসলামিক স্কলার তৈরির লক্ষ্যে সমন্বিত সিলেবাসের একটি আধুনিক মাদরাসাসহ বিভন্ন সেবা ও জনকল্যাণমূলক প্রকল্প পরিচালনার কেন্দ্র হবে ইন-শা-আল্লাহ।</p>
+          <a href="" class="card-btn text-center text-white p-2">দান করুন</a>
+          </div>
+        </div>
+      
+      </div>
+      <div class="col-lg-4">
+        <div class="card-item pb-4">
+          <img src="img/sadaqah.jpg" alt="" class="img-fluid">
+          <h4 class="text-success text-center mt-3 px-1">আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স</h4>
+          <div class="content p-2 px-3 ">
+          <p>দেশ, জাতি ও উম্মাহর কল্যাণার্থে পরিচালিত আস-সুন্নাহ ফাউন্ডেশনের নানামুখী কার্যক্রমের কেন্দ্রবিন্দু হবে আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স। এই কমপ্লেক্সে একটি আদর্শ মসজিদ এবং যুগ-চাহিদা পূরণে উপযোগী ইসলামিক স্কলার তৈরির লক্ষ্যে সমন্বিত সিলেবাসের একটি আধুনিক মাদরাসাসহ বিভন্ন সেবা ও জনকল্যাণমূলক প্রকল্প পরিচালনার কেন্দ্র হবে ইন-শা-আল্লাহ।</p>
+          <a href="" class="card-btn text-center text-white p-2">দান করুন</a>
+          </div>
+        </div>
+      
+      </div>
+      <div class="col-lg-4">
+        <div class="card-item pb-4">
+          <img src="img/qurbaniii.jpg" alt="" class="img-fluid">
+          <h4 class="text-success text-center mt-3 px-1">আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স</h4>
+          <div class="content p-2 px-3 ">
+          <p>দেশ, জাতি ও উম্মাহর কল্যাণার্থে পরিচালিত আস-সুন্নাহ ফাউন্ডেশনের নানামুখী কার্যক্রমের কেন্দ্রবিন্দু হবে আস-সুন্নাহ ফাউন্ডেশন মসজিদ কমপ্লেক্স। এই কমপ্লেক্সে একটি আদর্শ মসজিদ এবং যুগ-চাহিদা পূরণে উপযোগী ইসলামিক স্কলার তৈরির লক্ষ্যে সমন্বিত সিলেবাসের একটি আধুনিক মাদরাসাসহ বিভন্ন সেবা ও জনকল্যাণমূলক প্রকল্প পরিচালনার কেন্দ্র হবে ইন-শা-আল্লাহ।</p>
+          <a href="" class="card-btn text-center text-white p-2">দান করুন</a>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    
+  </div>
+
+
+</section>
+
+
+<!-- runing project -->
+<section id="project" class="project">
+  <div class="container">
+<div class="row g-4">
+  <div class="col-12"> <h4 class="mb-4 text-center py-4 pb-4">চলমান প্রজেক্ট</h4></div>
+  <div class="col-lg-4">
+    <div class="card-item ">
+      <img src="img/assunnah-project-distri.beef.jpg" alt="" class="img-fluid">
+      <h4 class="text-success text-center mt-3 px-1">ওয়েব ডেভলপমেন্ট কোর্স-২০২৩</h4>
+      <div class="content p-2 px-3 ">
+      <p>বেকার ও অদক্ষদের দক্ষতা বৃদ্ধি ও কর্মসংস্থান সৃষ্টির লক্ষ্যে আস-সুন্নাহ ফাউন্ডেশনের অঙ্গ প্রতিষ্ঠান আস-সুন্নাহ স্কিল ডেভলপমেন্ট ইনস্টিটিউট পরিচালনা করছে ওয়েব ডেভলপমেন্ট কোর্স-২০২৩। প্রথমে তিন মাসব্যাপী অনলাইন কোর্স পরিচালনার পর পরীক্ষার মাধ্যমে উত্তীর্ণদের তিন মাসের আবাসিক প্রশিক্ষণ দিয়ে দক্ষ হিসেবে গড়ে তোলা হবে ইন-শা-আল্লাহ।</p>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="col-lg-4">
+    <div class="card-item ">
+      <img src="img/assunnah-project-24.hour.quran.teaching.jpg" alt="" class="img-fluid">
+      <h4 class="text-success text-center mt-3 px-1">ওয়েব ডেভলপমেন্ট কোর্স-২০২৩</h4>
+      <div class="content p-2 px-3 ">
+      <p>বেকার ও অদক্ষদের দক্ষতা বৃদ্ধি ও কর্মসংস্থান সৃষ্টির লক্ষ্যে আস-সুন্নাহ ফাউন্ডেশনের অঙ্গ প্রতিষ্ঠান আস-সুন্নাহ স্কিল ডেভলপমেন্ট ইনস্টিটিউট পরিচালনা করছে ওয়েব ডেভলপমেন্ট কোর্স-২০২৩। প্রথমে তিন মাসব্যাপী অনলাইন কোর্স পরিচালনার পর পরীক্ষার মাধ্যমে উত্তীর্ণদের তিন মাসের আবাসিক প্রশিক্ষণ দিয়ে দক্ষ হিসেবে গড়ে তোলা হবে ইন-শা-আল্লাহ।</p>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="col-lg-4">
+    <div class="card-item ">
+      <img src="img/assunnah-project-24.hour.quran.teaching.jpg" alt="" class="img-fluid">
+      <h4 class="text-success text-center mt-3 px-1">ওয়েব ডেভলপমেন্ট কোর্স-২০২৩</h4>
+      <div class="content p-2 px-3 ">
+      <p>বেকার ও অদক্ষদের দক্ষতা বৃদ্ধি ও কর্মসংস্থান সৃষ্টির লক্ষ্যে আস-সুন্নাহ ফাউন্ডেশনের অঙ্গ প্রতিষ্ঠান আস-সুন্নাহ স্কিল ডেভলপমেন্ট ইনস্টিটিউট পরিচালনা করছে ওয়েব ডেভলপমেন্ট কোর্স-২০২৩। প্রথমে তিন মাসব্যাপী অনলাইন কোর্স পরিচালনার পর পরীক্ষার মাধ্যমে উত্তীর্ণদের তিন মাসের আবাসিক প্রশিক্ষণ দিয়ে দক্ষ হিসেবে গড়ে তোলা হবে ইন-শা-আল্লাহ।</p>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+    <div class="row g-4 p-4">
+   
+    </div>
+    <div class="row g-4 pb-4 d-flex justify-content-center align-items-center">
+      <div class="col-lg-4">
+        <div class="card-item ">
+          <img src="img/assunnah-project-3.jpg" alt="" class="img-fluid">
+          <h4 class="text-success text-center mt-3 px-1">ওয়েব ডেভলপমেন্ট কোর্স-২০২৩</h4>
+          <div class="content p-2 px-3 ">
+          <p>বেকার ও অদক্ষদের দক্ষতা বৃদ্ধি ও কর্মসংস্থান সৃষ্টির লক্ষ্যে আস-সুন্নাহ ফাউন্ডেশনের অঙ্গ প্রতিষ্ঠান আস-সুন্নাহ স্কিল ডেভলপমেন্ট ইনস্টিটিউট পরিচালনা করছে ওয়েব ডেভলপমেন্ট কোর্স-২০২৩। প্রথমে তিন মাসব্যাপী অনলাইন কোর্স পরিচালনার পর পরীক্ষার মাধ্যমে উত্তীর্ণদের তিন মাসের আবাসিক প্রশিক্ষণ দিয়ে দক্ষ হিসেবে গড়ে তোলা হবে ইন-শা-আল্লাহ।</p>
+   
+          </div>
+        </div>
+      
+      </div>
+      <div class="col-lg-4">
+        <div class="card-item ">
+          <img src="img/small-business-management.jpg" alt="" class="img-fluid">
+          <h4 class="text-success text-center mt-3 px-1">স্মল বিজনেস ম্যানেজমেন্ট কোর্স-২০২৩</h4>
+          <div class="content p-2 px-3 ">
+          <p>বেকার ও অদক্ষদের দক্ষতা বৃদ্ধি ও কর্মসংস্থান সৃষ্টির জন্য আস-সুন্নাহ স্কিল ডেভলপমেন্ট ইনস্টিটিউটের ধারাবাহিক প্রকল্পের অংশ হিসেবে ‘স্মল বিজনেস ম্যানেজমেন্ট কোর্স-২০২৩’ চলমান রয়েছে। এই কোর্স ৪৫ জন আলেম ও ৪৫ জন সাধারণ শিক্ষিত তরুণকে প্রশিক্ষণ প্রদান করা হচ্ছে। এই কোর্সে শেখানো হবে— মাইক্রোসফট ওয়ার্ড-এক্সেল, গ্রাফিক ডিজাইন, ডিজিটাল মার্কেটিং, অ্যাকাউন্টিং ও ইংরেজি ভাষা। কোর্স শেষ প্রশিক্ষণার্থীদের যোগ্যতা</p>
+          
+  
+          </div>
+        </div>
+      
+      </div>
+   
+     
+    </div>
+    
+  </div>
+</section>
+
+<!-- recernt news -->
+
+<section id="recent-news" class="recent-news slider-bg py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12"> <h4 class="mb-4 text-center py-4 pb-4">সাম্প্রতিক সংবাদ</h4></div>
+      <div class="col-lg-4">
+        <div class="card-item ">
+          <img src="img/tree-plantation-23-complete-1.jpeg" alt="" class="img-fluid">
+          <div class="content p-2 px-3 ">
+            <small>৩/৯/২০২৩, ১২:০৮:৪১ AM</small>
+        <h6 class="mt-2">এক লক্ষ বৃক্ষরোপণ সম্পন্ন</h6>
+    
+          </div>
+        </div>
+    
+      </div>
+     
+      <div class="col-lg-4">
+        <div class="card-item  ">
+          <img src="img/dawah-training-234.jpeg" alt="" class="img-fluid">
+          <div class="content p-2 px-3 ">
+            <small>৩/৯/২০২৩, ১২:০৩:৪১ AM</small>
+        <h6 class="mt-2">দাওয়াহ প্রশিক্ষণ - ২০২৩ সম্পন্ন</h6>
+    
+          </div>
+        </div>
+    
+      </div>
+     
+      <div class="col-lg-4">
+        <div class="card-item  ">
+          <img src="img/islamic-knowledge-study-competition-2023.1.jpg" alt="" class="img-fluid">
+          <div class="content p-2 px-3 ">
+            <small>৭/৮/২০২৩, ১১:৪৮:১৫ PM</small>
+        <h6 class="mt-2">মৌলিক ইসলামী জ্ঞানের পাঠ ও প্রতিযোগিতা ২০২৩ - এর পুরস্কার বিতরণ সম্পন্ন</h6>
+    
+          </div>
+        </div>
+    
+      </div>
+     
+    
+      <div class="col-12 d-flex justify-content-center align-items-center py-2">
+        <button class="btn btn-success text-center w-25 rounded-1 "> আর ও</button>
+      </div>
+    </div>
+    
+  </div>
+
+</section>
+
+<!-- Work section -->
+
+<section id="our-work" class="our-work py-4">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12"> <h4 class="mb-4 text-center py-4 pb-4">সাম্প্রতিক সংবাদ</h4></div>
+
+      <div class="col-lg-4 p-4">
+        <div class="card-item first-color px-4 py-2">
+      <div class="content  p-3  text-center">
+          <h2 class="py-2">যাকাতের অর্থে স্বাবলম্বীকরণ প্রকল্প</h2>
+        <h6 class="py-5">দরিদ্র জনগোষ্ঠীর হালাল রিযক অনুসন্ধানে সহায়তা করার মানসে তাদেরকে কারিগরি প্রশিক্ষণ দেয়া হয়। প্রশিক্ষণের মাধ্যমে দক্ষতা অর্জনের পাশাপাশি একই সময়ে তাঁরা যাতে দ্বীনের মৌলিক জ্ঞান অর্জন করতে পারেন এবং নীতিবান ও বিশ্বস্ত নাগরিক হন— </h6>
+
+        <button class="btn btn-success mt-2">বিস্তারিত দেখুন</button>
+    
+          </div>
+        </div>
+    
+      </div>
+     
+
+      <div class="col-lg-4 p-4">
+        <div class="card-item second-color px-4 py-2">
+      <div class="content  p-3  text-center">
+          <h2 class="py-2">বৃক্ষরোপণ কর্মসূচি</h2>
+        <h6 class="py-5">গাছ লাগানোর গুরুত্ব ও ফযীলত ও অপরিসীম। এটি একটি সাদাকায়ে জারিয়ামূলক নেক কাজ। যদি কেউ মানুষ কিংবা প্রাণীকূলের উপকার সাধনের লক্ষ্যে ফলজ বা বনজ গাছ রোপণ করে এবং এর মাধ্যমে থাকতে পারে। রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন, ‘যদি কোনো মুসলমান একটি বৃক্ষ রোপণ করে অথবা কোনো শস্য    </h6>
+
+        <button class="btn btn-success mt-2">বিস্তারিত দেখুন</button>
+    
+          </div>
+        </div>
+    
+      </div>
+     
+
+      <div class="col-lg-4 p-4">
+        <div class="card-item  thirth-color px-4 py-2">
+      <div class="content  p-3  text-center">
+          <h2 class="py-2">ইফতার ও রমাদান ফুড বিতরণ</h2>
+        <h6 class="py-5">ইফতার করানো অত্যন্ত গুরুত্বপূর্ণ একটি আমল। রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন, যে ব্যক্তি কোনো সিয়াম পালনকারীকে ইফতার করাবে তাকে সিয়াম পালনকারীর সমপরিমাণ সাওয়াব দেওয়া হবে। তাতে সিয়াম পালনকারীর সাওয়াব থেকে বিন্দুমাত্র কমানো হবে না। 
+         ।</h6>
+
+        <button class="btn btn-success mt-2">বিস্তারিত দেখুন</button>
+    
+          </div>
+        </div>
+    
+      </div>
+
+     <div class="col-12 d-flex justify-content-center align-items-center py-2">
+        <button class="btn btn-success text-center w-25 rounded-1 "> আর ও</button>
+      </div>
+  
+     
+    
+      
+    </div>
+    
+  </div>
+
+</section>
+
+<!-- video section -->
+
+<section id="video-section" class="video-section slider-bg py-4">
+  <div class="container">
+    <div class="row g-5">
+
+      <div class="col-12"> <h4 class="mb-4 text-center py-4 pb-4">প্রতিবেদন</h4></div>
+      <div class="col-lg-4 ">
+        <div class="video-content ">
+          <iframe class="rounded-3" width="430" height="270" src="https://www.youtube.com/embed/wKV4pZrep6E?si=jqaYE7oiuX-tf2vT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p class="py-2">দুস্থ ও অসহায় পরিবারের মাঝে আস-সুন্নাহ ফাউন্ডেশনের খাদ্য বিতরণ প্রতিবেদন ২০১৯</p>
+        </div>
+
+      
+      </div>
+      <div class="col-lg-4">
+        <div class="video-content ">
+          <iframe class="rounded-3" width="430" height="270" src="https://www.youtube.com/embed/6w4SCAnPxS8?si=CQBVPNVXjtSVCRbb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p class="py-2">আস-সুন্নাহ ফাউন্ডেশনের কুরবানীর প্রতিবেদন ২০১৯</p>
+        </div>
+
+      
+      </div>
+      <div class="col-lg-4">
+        <div class="video-content ">
+          <iframe class="rounded-3" width="430" height="270" src="https://www.youtube.com/embed/T4VIMchyz34?si=qUfbv-mcCcP3iw6l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p class="py-2">বন্যার্তদের মাঝে ত্রাণ বিতরণ প্রতিবেদন ২০১৯</p>
+        </div>
+
+      
+      </div>
+
+      <div class="col-12 d-flex justify-content-center align-items-center py-2">
+        <button class="btn btn-success text-center w-25 rounded-1 "> আর ও</button>
+      </div>
+      
+    </div>
+
+
+  </div>
+
+</section>
+
+<!-- gallary section -->
+
+<section id="gallary" class="gallary p-4">
+  <div class="container">
+    <div class="row g-4 d-flex align-items-center">
+
+
+      <div class="col-12"> <h4 class="mb-4 text-center py-4 pb-4">গ্যালারী</h4></div>
+      
+      <div class="col-lg-3">
+       <div class="gallary-img"> 
+         
+         <img src="img/iftar_gallery_4.jpg" alt="" class="img-fluid rounded-1">
+         
+         <div class="gallary-content">
+        <div class="overlay-text d-flex ">
+          <i class="fa-regular fa-eye"></i>
+          <p >Preview</p>
+        </div>
+    
+        </div>
+
+      </div>
+      </div>
+
+      <div class="col-lg-3">
+       <div class="gallary-img"> 
+         
+         <img src="img/qurbani_gallery_3.jpg" alt="" class="img-fluid rounded-1">
+         
+         <div class="gallary-content">
+        <div class="overlay-text d-flex ">
+          <i class="fa-regular fa-eye"></i>
+          <p >Preview</p>
+        </div>
+    
+        </div>
+
+      </div>
+      </div>
+
+      <div class="col-lg-3">
+       <div class="gallary-img"> 
+         
+         <img src="img/relief_distribution_gallery_8.jpg" alt="" class="img-fluid rounded-1">
+         
+         <div class="gallary-content">
+        <div class="overlay-text d-flex ">
+          <i class="fa-regular fa-eye"></i>
+          <p >Preview</p>
+        </div>
+    
+        </div>
+
+      </div>
+      </div>
+
+      <div class="col-lg-3">
+       <div class="gallary-img"> 
+         
+         <img src="img/van_distribution_gallery_4.jpg" alt="" class="img-fluid rounded-1">
+         
+         <div class="gallary-content">
+        <div class="overlay-text d-flex ">
+          <i class="fa-regular fa-eye"></i>
+          <p >Preview</p>
+        </div>
+    
+        </div>
+
+      </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="gallary-img"> 
+         
+         <img src="img/winter_clothing_gallery_5.jpg" alt="" class="img-fluid rounded-1">
+         
+         <div class="gallary-content">
+        <div class="overlay-text d-flex ">
+          <i class="fa-regular fa-eye"></i>
+          <p >Preview</p>
+        </div>
+    
+        </div>
+
+      </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="gallary-img"> 
+         
+         <img src="img/tube_well_distribution_gallery_6.jpg" alt="" class="img-fluid rounded-1">
+         
+         <div class="gallary-content">
+        <div class="overlay-text d-flex ">
+          <i class="fa-regular fa-eye"></i>
+          <p >Preview</p>
+        </div>
+    
+        </div>
+
+      </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="gallary-img"> 
+         
+         <img src="img/food_distribution_gallery_5.jpg" alt="" class="img-fluid rounded-1">
+         
+         <div class="gallary-content">
+        <div class="overlay-text d-flex ">
+          <i class="fa-regular fa-eye"></i>
+          <p >Preview</p>
+        </div>
+    
+        </div>
+
+      </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="gallary-img"> 
+         
+         <img src="img/zakat.jpg" alt="" class="img-fluid rounded-1">
+         
+         <div class="gallary-content">
+        <div class="overlay-text d-flex ">
+          <i class="fa-regular fa-eye"></i>
+          <p >Preview</p>
+        </div>
+    
+        </div>
+
+      </div>
+      </div>
+
+      <div class="col-12 d-flex justify-content-center align-items-center py-2">
+        <button class="btn btn-success text-center w-25 rounded-1 "> আর ও</button>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+<!-- registration -->
+
+<section id="registration" class="registration py-5 ">
+
+  <div class="container">
+    <div class="row g-4  d-flex align-items-center justify-content-center">
+      <div class="col-lg-6 ">
+        <img src="img/relief_distribution_gallery_8.jpg" alt="" class="img-fluid">
+      </div>
+
+      <div class="col-lg-6 px-4">
+        <button class="btn btn-success w-100"> সেচ্ছাসেবক নিবন্ধন</button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- footer -->
+
+<footer class="footer slider-bg py-5">
+  <div class="container">
+    <div class="row text-center p-2 align-items-center">
+      <div class="col-lg-12">
+        <p > স্বত্ব © 2023  <span class="text-success">আস-সুন্নাহ ফাউন্ডেশন</span> - সর্ব স্বত্ব সংরক্ষিত। কারিগরি সহায়তায়  <span class="text-success">কোয়ান্টিক ডায়নামিক্স।</span></p>
+        <p> <span class="text-success mx-1">পরিষেবার শর্তাবলী</span> | <span class="text-success mx-1">গোপনীয়তা নীতি</span></span></p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+<!-- bootstrap js -->
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- custome js -->
+<script></script>
+</body>
+</html>
